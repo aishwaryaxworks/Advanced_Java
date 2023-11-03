@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class JdbcExecution {
 	public static void main(String[] args) {
 		//Syntax ---> main protocol : subprotocol:host:portnumber/database_name
-		String jdbcURL = "jdbc:mysql://localhost:3306/election";
+		String jdbcURL = "jdbc:mysql://localhost:3306/factory";
 		String userName = "root";          //root or admin
 		String password = "X-workZodc@123";         // Xworkzodc@123
 		String driverClass = "com.mysql.jdbc.Driver";     //Fully Qualified Class Name
